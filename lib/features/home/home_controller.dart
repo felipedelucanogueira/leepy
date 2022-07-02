@@ -8,13 +8,17 @@ class HomeController extends ChangeNotifier {
   double start = 0;
   bool isActive = false;
 
-  Future<void> timerfunc() async {
+  timerfunc() {
     duration = duration * 60;
     Timer.periodic(
       const Duration(seconds: 1),
       (timer) {
+        if (isActive == false) {
+          timer.cancel();
+        }
         if (start < duration && isActive) {
           start++;
+
           notifyListeners();
         } else if (start == duration) {
           Process.run('pmset', ['sleepnow']);
@@ -23,6 +27,14 @@ class HomeController extends ChangeNotifier {
         }
       },
     );
+  }
+
+  bool enableKeyboard() {
+    if (isActive == true) {
+      return false;
+    } else {
+      return true;
+    }
   }
 
   stopTimer() {

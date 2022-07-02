@@ -1,26 +1,21 @@
 import 'dart:io';
 
+import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:leepy/values/strings.dart';
-import 'package:window_size/window_size.dart';
 
 import 'features/home/home_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
 
-  //disable fullscreen
-
   runApp(const InitialRoute());
 
-  if (Platform.isWindows || Platform.isLinux || Platform.isMacOS) {
-    setWindowTitle('Flutter Demo');
-    setWindowTitle(Strings.leepy);
-    setWindowMinSize(const Size(400, 400));
-    setWindowMaxSize(const Size(400, 400));
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+  if (Platform.isMacOS || Platform.isLinux || Platform.isWindows) {
+    DesktopWindow.setMaxWindowSize(const Size(400, 400));
+    DesktopWindow.setMinWindowSize(const Size(400, 400));
+    DesktopWindow.setWindowSize(const Size(400, 400));
   }
 }
 
