@@ -1,16 +1,16 @@
-# leepy
 
-A new Flutter project.
+# Leepy (Beta)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Desligue sua tela de um jeito fácil e rápido - Disponível apenas para MacOs
 
-A few resources to get you started if this is your first Flutter project:
+## Download
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Baixar Leepy](https://drive.google.com/uc?id=1oIFUoNqCzqfNnOPCm4lHZ3FkVTmgeOmW&export=download&confirm=t&uuid=272cbffa-494a-4031-87d9-23475c173453)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+https://user-images.githubusercontent.com/18319251/177011280-79c9310f-7040-43fd-ad55-eacf76ada9bd.mp4
+
+
+
