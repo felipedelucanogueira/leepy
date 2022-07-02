@@ -1,5 +1,5 @@
 flutter_icons:
   image_path: 'assets/appstore.png'
   macos: true
-  remove_alpha_macos: true
+  remove_alpha_macos: false
   
