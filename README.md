@@ -6,7 +6,7 @@ Desligue sua tela de um jeito fácil e rápido - Disponível apenas para MacOs
 
 ## Download
 
-[Baixar Leepy](https://drive.google.com/uc?id=1oIFUoNqCzqfNnOPCm4lHZ3FkVTmgeOmW&export=download&confirm=t&uuid=272cbffa-494a-4031-87d9-23475c173453)
+[Baixar Leepy](https://drive.google.com/u/0/uc?id=1ErQ4i_UmEij7q_6RT7HeJp9rlZfvvHXw&export=download&confirm=t&uuid=c01e734f-5c5f-4690-9a21-a4751005b04d)
 
 
 
